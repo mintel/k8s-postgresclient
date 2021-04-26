@@ -22,5 +22,4 @@ RUN adduser -D -s /bin/sh -u 1000 mintel --home /home/mintel
 
 USER 1000
 
-ENTRYPOINT ["psql"]
 CMD ["/pause"]
